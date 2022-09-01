@@ -9,7 +9,6 @@ import (
 
 	"github.com/filecoin-project/go-address"
 	"github.com/ipfs/go-cid"
-	"github.com/ipfs/ipfs-cluster/api"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 )
 
@@ -18,11 +17,17 @@ const iso8601 = "2006-01-02T15:04:05.999Z07:00"
 type PinStatus int
 
 const (
-	PinStatusPinned    = PinStatus(api.TrackerStatusPinned)
-	PinStatusPinning   = PinStatus(api.TrackerStatusPinning)
-	PinStatusPinQueued = PinStatus(api.TrackerStatusPinQueued)
-	PinStatusRemote    = PinStatus(api.TrackerStatusRemote)
-	PinStatusUnpinned  = PinStatus(api.TrackerStatusUnpinned)
+	//PinStatusPinned    = PinStatus(api.TrackerStatusPinned)
+	//PinStatusPinning   = PinStatus(api.TrackerStatusPinning)
+	//PinStatusPinQueued = PinStatus(api.TrackerStatusPinQueued)
+	//PinStatusRemote    = PinStatus(api.TrackerStatusRemote)
+	//PinStatusUnpinned  = PinStatus(api.TrackerStatusUnpinned)
+	PinStatusPinned    = PinStatus(16)
+	PinStatusPinning   = PinStatus(32)
+	PinStatusPinQueued = PinStatus(512)
+	PinStatusRemote    = PinStatus(256)
+	PinStatusUnpinned  = PinStatus(128)
+
 	PinStatusUnknown   = PinStatus(-1)
 )
 
