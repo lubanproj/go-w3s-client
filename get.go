@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/ipfs/go-cid"
-	w3http "github.com/web3-storage/go-w3s-client/http"
+	w3http "github.com/lubanproj/go-w3s-client/http"
 )
 
 func (c *client) Get(ctx context.Context, cid cid.Cid) (*w3http.Web3Response, error) {

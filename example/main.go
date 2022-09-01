@@ -8,8 +8,8 @@ import (
 	"os"
 
 	"github.com/ipfs/go-cid"
-	"github.com/web3-storage/go-w3s-client"
-	w3fs "github.com/web3-storage/go-w3s-client/fs"
+	"github.com/lubanproj/go-w3s-client"
+	w3fs "github.com/lubanproj/go-w3s-client/fs"
 )
 
 // Usage:

@@ -7,7 +7,7 @@ Demo: https://youtu.be/FLsQZ_ogeOg
 ## Install
 
 ```sh
-go get github.com/web3-storage/go-w3s-client
+go get github.com/lubanproj/go-w3s-client
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ package main
 import (
     "io/fs"
     "os"
-    "github.com/web3-storage/go-w3s-client"
+    "github.com/lubanproj/go-w3s-client"
 )
 
 func main() {
@@ -72,12 +72,12 @@ See [example](./example) for more.
 
 ## API
 
-[pkg.go.dev Reference](https://pkg.go.dev/github.com/web3-storage/go-w3s-client)
+[pkg.go.dev Reference](https://pkg.go.dev/github.com/lubanproj/go-w3s-client)
 
 ## Contribute
 
-Feel free to dive in! [Open an issue](https://github.com/web3-storage/go-w3s-client/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/lubanproj/go-w3s-client/issues/new) or submit PRs.
 
 ## License
 
-Dual-licensed under [MIT + Apache 2.0](https://github.com/web3-storage/go-w3s-client/blob/main/LICENSE.md)
+Dual-licensed under [MIT + Apache 2.0](https://github.com/lubanproj/go-w3s-client/blob/main/LICENSE.md)

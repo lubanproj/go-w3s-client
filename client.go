@@ -12,7 +12,7 @@ import (
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	blockstore "github.com/ipfs/go-ipfs-blockstore"
-	w3http "github.com/web3-storage/go-w3s-client/http"
+	w3http "github.com/lubanproj/go-w3s-client/http"
 )
 
 const clientName = "web3.storage/go"

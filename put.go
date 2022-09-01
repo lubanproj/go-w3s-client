@@ -12,7 +12,7 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-merkledag"
 	"github.com/ipld/go-car"
-	"github.com/web3-storage/go-w3s-client/adder"
+	"github.com/lubanproj/go-w3s-client/adder"
 )
 
 const targetChunkSize = 1024 * 1024 * 10

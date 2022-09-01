@@ -8,7 +8,7 @@ import (
 
 	"github.com/ipfs/go-blockservice"
 	"github.com/ipld/go-car"
-	"github.com/web3-storage/go-w3s-client/fs/adapter"
+	"github.com/lubanproj/go-w3s-client/fs/adapter"
 )
 
 // Web3Response is a response to a call to the Get method.

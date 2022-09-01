@@ -17,7 +17,7 @@ import (
 	unixfs "github.com/ipfs/go-unixfs"
 	balanced "github.com/ipfs/go-unixfs/importer/balanced"
 	ihelper "github.com/ipfs/go-unixfs/importer/helpers"
-	w3fs "github.com/web3-storage/go-w3s-client/fs"
+	w3fs "github.com/lubanproj/go-w3s-client/fs"
 )
 
 const chnkr = "size-1048576"
